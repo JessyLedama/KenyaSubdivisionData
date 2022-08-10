@@ -1531,16 +1531,6 @@ class SubCountySeeder extends Seeder
             ],
 
             [
-                'name' => "Kamukunji",
-                'county_id' => '47',
-            ],
-
-            [
-                'name' => "Mathare",
-                'county_id' => '47',
-            ],
-
-            [
                 'name' => "Ruaraka",
                 'county_id' => '47',
             ],

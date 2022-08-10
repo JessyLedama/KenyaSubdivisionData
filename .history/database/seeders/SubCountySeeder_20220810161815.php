@@ -1540,11 +1540,6 @@ class SubCountySeeder extends Seeder
                 'county_id' => '47',
             ],
 
-            [
-                'name' => "Ruaraka",
-                'county_id' => '47',
-            ],
-
         ];
 
         $subCounties = SubCounty::all();

@@ -1486,61 +1486,6 @@ class SubCountySeeder extends Seeder
             ],
 
             [
-                'name' => "Embakasi West",
-                'county_id' => '47',
-            ],
-
-            [
-                'name' => "Starehe",
-                'county_id' => '47',
-            ],
-
-            [
-                'name' => "Dagoretti North",
-                'county_id' => '47',
-            ],
-
-            [
-                'name' => "Dagoretti South",
-                'county_id' => '47',
-            ],
-
-            [
-                'name' => "Lang'ata",
-                'county_id' => '47',
-            ],
-
-            [
-                'name' => "Roysambu",
-                'county_id' => '47',
-            ],
-
-            [
-                'name' => "Kasarani",
-                'county_id' => '47',
-            ],
-
-            [
-                'name' => "Westlands",
-                'county_id' => '47',
-            ],
-
-            [
-                'name' => "Makadara",
-                'county_id' => '47',
-            ],
-
-            [
-                'name' => "Kamukunji",
-                'county_id' => '47',
-            ],
-
-            [
-                'name' => "Mathare",
-                'county_id' => '47',
-            ],
-
-            [
                 'name' => "Ruaraka",
                 'county_id' => '47',
             ],
