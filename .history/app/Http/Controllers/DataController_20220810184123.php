@@ -25,4 +25,6 @@ class DataController extends Controller
 
         return view('summery', compact('regionsCount','countiesCount', 'subCountiesCount', 'regions', 'counties', 'subCounties'));
     }
+
+    
 }
