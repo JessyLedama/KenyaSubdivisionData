@@ -866,22 +866,7 @@ class SubCountySeeder extends Seeder
             ],
 
             [
-                'name' => "Eldama Ravine",
-                'county_id' => '30',
-            ],
-
-            [
-                'name' => "Baringo Central",
-                'county_id' => '30',
-            ],
-
-            [
-                'name' => "Baringo North",
-                'county_id' => '30',
-            ],
-
-            [
-                'name' => "Tiaty",
+                'name' => "Baringo South",
                 'county_id' => '30',
             ],
 

@@ -880,10 +880,7 @@ class SubCountySeeder extends Seeder
                 'county_id' => '30',
             ],
 
-            [
-                'name' => "Tiaty",
-                'county_id' => '30',
-            ],
+            
 
         ];
 

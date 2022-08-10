@@ -881,7 +881,7 @@ class SubCountySeeder extends Seeder
             ],
 
             [
-                'name' => "Tiaty",
+                'name' => "Baringo South",
                 'county_id' => '30',
             ],
 

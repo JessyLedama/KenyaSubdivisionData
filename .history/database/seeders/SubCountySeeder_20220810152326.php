@@ -876,12 +876,7 @@ class SubCountySeeder extends Seeder
             ],
 
             [
-                'name' => "Baringo North",
-                'county_id' => '30',
-            ],
-
-            [
-                'name' => "Tiaty",
+                'name' => "Baringo South",
                 'county_id' => '30',
             ],
 

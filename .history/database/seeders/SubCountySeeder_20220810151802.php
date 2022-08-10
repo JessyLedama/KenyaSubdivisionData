@@ -786,104 +786,10 @@ class SubCountySeeder extends Seeder
             ],
 
             [
-                'name' => "Ainabkoi",
+                'name' => "Turbo",
                 'county_id' => '27',
             ],
 
-            [
-                'name' => "Moiben",
-                'county_id' => '27',
-            ],
-
-            [
-                'name' => "Kesses",
-                'county_id' => '27',
-            ],
-
-            [
-                'name' => "Kapseret",
-                'county_id' => '27',
-            ],
-
-            [
-                'name' => "Keiyo North",
-                'county_id' => '28',
-            ],
-
-            [
-                'name' => "Keiyo South",
-                'county_id' => '28',
-            ],
-
-            [
-                'name' => "Marakwet West",
-                'county_id' => '28',
-            ],
-
-            [
-                'name' => "Marakwet East",
-                'county_id' => '28',
-            ],
-
-            [
-                'name' => "Mosop",
-                'county_id' => '29',
-            ],
-
-            [
-                'name' => "Emgwen",
-                'county_id' => '29',
-            ],
-
-            [
-                'name' => "Aldai",
-                'county_id' => '29',
-            ],
-
-            [
-                'name' => "Tinderet",
-                'county_id' => '29',
-            ],
-
-            [
-                'name' => "Nandi Hills",
-                'county_id' => '29',
-            ],
-
-            [
-                'name' => "Chesumei",
-                'county_id' => '29',
-            ],
-
-            [
-                'name' => "Baringo South",
-                'county_id' => '30',
-            ],
-
-            [
-                'name' => "Mogotio",
-                'county_id' => '30',
-            ],
-
-            [
-                'name' => "Eldama Ravine",
-                'county_id' => '30',
-            ],
-
-            [
-                'name' => "Baringo Central",
-                'county_id' => '30',
-            ],
-
-            [
-                'name' => "Baringo North",
-                'county_id' => '30',
-            ],
-
-            [
-                'name' => "Tiaty",
-                'county_id' => '30',
-            ],
 
         ];
 

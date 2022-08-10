@@ -860,31 +860,6 @@ class SubCountySeeder extends Seeder
                 'county_id' => '30',
             ],
 
-            [
-                'name' => "Mogotio",
-                'county_id' => '30',
-            ],
-
-            [
-                'name' => "Eldama Ravine",
-                'county_id' => '30',
-            ],
-
-            [
-                'name' => "Baringo Central",
-                'county_id' => '30',
-            ],
-
-            [
-                'name' => "Baringo North",
-                'county_id' => '30',
-            ],
-
-            [
-                'name' => "Tiaty",
-                'county_id' => '30',
-            ],
-
         ];
 
         $subCounties = SubCounty::all();
