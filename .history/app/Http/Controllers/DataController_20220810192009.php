@@ -21,7 +21,7 @@ class DataController extends Controller
         $subCounties = SubCounty::with('county')->paginate(10);
         $regionsCount = count($regions);
         $countiesCount = count(County::all());
-        $subCountiesCount = count(SubCounty::all());
+        $subCountiesCount = count($subCounties);
 
         return view('summery', compact('regionsCount','countiesCount', 'subCountiesCount', 'regions', 'counties', 'subCounties'));
     }

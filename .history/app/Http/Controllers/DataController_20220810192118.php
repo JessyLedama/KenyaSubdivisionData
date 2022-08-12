@@ -18,7 +18,7 @@ class DataController extends Controller
     {
         $regions = Region::all();
         $counties = County::paginate(10);
-        $subCounties = SubCounty::with('county')->paginate(10);
+        $subCounties = SubCounty::with('county')->paginate();
         $regionsCount = count($regions);
         $countiesCount = count(County::all());
         $subCountiesCount = count(SubCounty::all());
