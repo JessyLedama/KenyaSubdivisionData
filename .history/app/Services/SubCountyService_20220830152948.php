@@ -13,8 +13,8 @@ class SubCountyService
         $subCountiesCount = SubCounty::count();
 
         return [
-            'subCounties' => $subCounties, 
-            'subCountiesCount' => $subCountiesCount
+            'subcounties' => $subCounties, 
+            'subcountiesCount' => $subCountiesCount
         ];
     }
 }

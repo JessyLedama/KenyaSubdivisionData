@@ -33,6 +33,6 @@ class DataController extends Controller
         $wardsCount = $wardsData['wardsCount'];
         $wards = $wardsData['wards'];
 
-        return view('summery', compact('regionsCount','countiesCount', 'subCountiesCount', 'regions', 'counties', 'subCounties', 'wards', 'wardsCount'));
+        return view('summery', compact('regionsCount','countiesCount', 'subCountiesCount', 'regions', 'counties', 'subCounties', 'wards'));
     }
 }

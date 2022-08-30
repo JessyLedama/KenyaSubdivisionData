@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Services\SubCountyService;
 use App\Services\CountyService;
 use App\Services\RegionService;
-use App\Services\WardService;
+use App\Services\RegionService;
 
 class DataController extends Controller
 {
@@ -26,13 +26,13 @@ class DataController extends Controller
         $counties = $countiesData['counties'];
 
         $subCountiesData = SubCountyService::all();
-        $subCountiesCount = $subCountiesData['subCountiesCount'];
-        $subCounties = $subCountiesData['subCounties'];
+        $subCountiesCount = $subCountiesData['countiesCount'];
+        $subCounties = $subCountiesData['counties'];
 
         $wardsData = WardService::all();
-        $wardsCount = $wardsData['wardsCount'];
-        $wards = $wardsData['wards'];
+        $subCountiesCount = $subCountiesData['countiesCount'];
+        $subCounties = $subCountiesData['counties'];
 
-        return view('summery', compact('regionsCount','countiesCount', 'subCountiesCount', 'regions', 'counties', 'subCounties', 'wards', 'wardsCount'));
+        return view('summery', compact('regionsCount','countiesCount', 'subCountiesCount', 'regions', 'counties', 'subCounties'));
     }
 }

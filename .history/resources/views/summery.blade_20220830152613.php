@@ -6,8 +6,8 @@
 
         <!-- Summery -->
         <div class="market-updates">
-            <!-- Regions -->
-            <div class="col-md-3 market-update-gd">
+            <!--  -->
+        <div class="col-md-3 market-update-gd">
                 <div class="market-update-block clr-block-2">
                     <div class="col-md-8 market-update-left">
                         <h4>Regions</h4>
@@ -44,7 +44,7 @@
                 <div class="market-update-block clr-block-4">
                     <div class="col-md-8 market-update-left">
                         <h4> Wards </h4>
-                        <h3>{{ $wardsCount }}</h3>
+                        <h3>{{ $subCountiesCount }}</h3>
                     </div>
                     <div class="clearfix"> </div>
                 </div>

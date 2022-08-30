@@ -26,13 +26,13 @@ class DataController extends Controller
         $counties = $countiesData['counties'];
 
         $subCountiesData = SubCountyService::all();
-        $subCountiesCount = $subCountiesData['subCountiesCount'];
-        $subCounties = $subCountiesData['subCounties'];
+        $subCountiesCount = $subCountiesData['countiesCount'];
+        $subCounties = $subCountiesData['counties'];
 
         $wardsData = WardService::all();
-        $wardsCount = $wardsData['wardsCount'];
-        $wards = $wardsData['wards'];
+        $subsCount = $subsData['sCount'];
+        $subs = $subsData['s'];
 
-        return view('summery', compact('regionsCount','countiesCount', 'subCountiesCount', 'regions', 'counties', 'subCounties', 'wards', 'wardsCount'));
+        return view('summery', compact('regionsCount','countiesCount', 'subCountiesCount', 'regions', 'counties', 'subCounties'));
     }
 }
