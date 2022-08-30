@@ -20,7 +20,7 @@ class DatabaseSeeder extends Seeder
             RegionSeeder::class,
             CountySeeder::class,
             SubCountySeeder::class,
-            WardsSeeder::class,
+            Ward
         ]);
     }
 }
