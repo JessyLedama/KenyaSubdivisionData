@@ -5,7 +5,6 @@ use App\Http\Controllers\CountyController;
 use App\Http\Controllers\SubCountyController;
 use App\Http\Controllers\RegionController;
 use App\Http\Controllers\DataController;
-use App\Http\Controllers\WardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,6 +23,6 @@ Route::get('/counties', [CountyController::class, 'index'])->name('counties.inde
 
 Route::get('/sub-counties', [SubCountyController::class, 'index'])->name('subCounties.index');
 
-Route::get('/wards', [WardController::class, 'index'])->name('wards.index');
+Route::get('/wards', [WardController::class, 'index'])->name('subCounties.index');
 
 Route::get('/regions', [RegionController::class, 'index'])->name('regions.index');

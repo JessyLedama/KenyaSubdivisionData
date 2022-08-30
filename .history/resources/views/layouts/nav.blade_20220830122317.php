@@ -47,50 +47,50 @@ License: MIT
         </header>
         <!--header end-->
 
-        <!--sidebar start-->
-        <aside>
-            <div id="sidebar" class="nav-collapse">
-                <!-- sidebar menu start-->
-                <div class="leftside-navigation">
-                    <ul class="sidebar-menu" id="nav-accordion">
-                        <li>
-                            <a class="active" href="{{ route('regions.index') }}">
-                                <i class="fa fa-dashboard"></i>
-                                <span>Regions</span>
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="{{ route('counties.index') }}">
-                                <i class="fa fa-bullhorn"></i>
-                                <span>Counties </span>
-                            </a>
-                        </li>
+            <!--sidebar start-->
+            <aside>
+                <div id="sidebar" class="nav-collapse">
+                    <!-- sidebar menu start-->
+                    <div class="leftside-navigation">
+                        <ul class="sidebar-menu" id="nav-accordion">
+                            <li>
+                                <a class="active" href="{{ route('regions.index') }}">
+                                    <i class="fa fa-dashboard"></i>
+                                    <span>Regions</span>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="{{ route('counties.index') }}">
+                                    <i class="fa fa-bullhorn"></i>
+                                    <span>Counties </span>
+                                </a>
+                            </li>
 
-                        <li>
-                            <a href="{{ route('subCounties.index') }}">
-                                <i class="fa fa-bullhorn"></i>
-                                <span>Sub Counties </span>
-                            </a>
-                        </li>
+                            <li>
+                                <a href="{{ route('subCounties.index') }}">
+                                    <i class="fa fa-bullhorn"></i>
+                                    <span>Sub Counties </span>
+                                </a>
+                            </li>
 
-                        <li>
-                            <a href="{{ route('wards.index') }}">
-                                <i class="fa fa-bullhorn"></i>
-                                <span>Wards </span>
-                            </a>
-                        </li>
-                    </ul>            
+                            <li>
+                                <a href="{{ route('subCounties.index') }}">
+                                    <i class="fa fa-bullhorn"></i>
+                                    <span>Wards </span>
+                                </a>
+                            </li>
+                        </ul>            
+                    </div>
+                    <!-- sidebar menu end-->
                 </div>
-                <!-- sidebar menu end-->
-            </div>
-        </aside>
-        <!--sidebar end-->
+            </aside>
+            <!--sidebar end-->
 
-        <main>
-            @yield('content')
-        </main>
-        <!-- </div> -->
+            <main>
+                @yield('content')
+            </main>
+    <!-- </div> -->
     <footer>
         @extends('layouts/footer')
     </footer>

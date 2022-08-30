@@ -5,7 +5,6 @@ use App\Http\Controllers\CountyController;
 use App\Http\Controllers\SubCountyController;
 use App\Http\Controllers\RegionController;
 use App\Http\Controllers\DataController;
-use App\Http\Controllers\WardController;
 
 /*
 |--------------------------------------------------------------------------

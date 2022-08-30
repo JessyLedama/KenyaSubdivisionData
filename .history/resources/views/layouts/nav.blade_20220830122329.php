@@ -75,7 +75,7 @@ License: MIT
                         </li>
 
                         <li>
-                            <a href="{{ route('wards.index') }}">
+                            <a href="{{ route('subCounties.index') }}">
                                 <i class="fa fa-bullhorn"></i>
                                 <span>Wards </span>
                             </a>
@@ -90,7 +90,7 @@ License: MIT
         <main>
             @yield('content')
         </main>
-        <!-- </div> -->
+    <!-- </div> -->
     <footer>
         @extends('layouts/footer')
     </footer>
