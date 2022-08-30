@@ -167,13 +167,12 @@
                                 <table>
                                     <thead>
                                         <th>Ward name</th>
-                                        <th>SubCounty/ Constituency</th>
+                                        <th>Ward name</th>
                                     </thead>
                                     <tbody>
                                         @foreach($wards as $ward)
                                             <tr>
                                                 <td> {{ $ward->name }} </td>
-                                                <td> {{ $ward->subcounty->name }} </td>
                                             </tr>
                                         @endforeach
                                     </tbody>

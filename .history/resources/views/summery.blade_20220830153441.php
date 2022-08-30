@@ -153,27 +153,25 @@
             <div class="clearfix"> </div>
         </div>
 
-        <!-- Wards List-->
+        <!-- Regions List-->
         <div class="row">
             <div class="panel-body">
                 <div class="col-md-12 w3ls-graph">
                     <div class="agileinfo-grap">
                         <div class="agileits-box">
                             <header class="agileits-box-header clearfix">
-                                <h3>Wards List</h3>
+                                <h3>Regions List</h3>
                             </header>
 
                             <div class="agileits-box-body clearfix">
                                 <table>
                                     <thead>
-                                        <th>Ward name</th>
-                                        <th>SubCounty/ Constituency</th>
+                                        <th>Region name</th>
                                     </thead>
                                     <tbody>
-                                        @foreach($wards as $ward)
+                                        @foreach($regions as $region)
                                             <tr>
-                                                <td> {{ $ward->name }} </td>
-                                                <td> {{ $ward->subcounty->name }} </td>
+                                                <td> {{ $region->name }} </td>
                                             </tr>
                                         @endforeach
                                     </tbody>

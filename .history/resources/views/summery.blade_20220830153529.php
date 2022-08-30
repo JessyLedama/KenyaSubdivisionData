@@ -173,7 +173,6 @@
                                         @foreach($wards as $ward)
                                             <tr>
                                                 <td> {{ $ward->name }} </td>
-                                                <td> {{ $ward->subcounty->name }} </td>
                                             </tr>
                                         @endforeach
                                     </tbody>
