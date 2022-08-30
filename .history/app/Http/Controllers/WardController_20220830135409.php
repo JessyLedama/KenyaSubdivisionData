@@ -15,7 +15,7 @@ class WardController extends Controller
     public function index()
     {
         $wards = Ward::with('subcounty')->paginate(10);
-        $wardsCount = count(Ward::all());
+        $wardsCount = count(Ward::);
 
         return view('wards.index', compact('wards', 'wardsCount'));
     }

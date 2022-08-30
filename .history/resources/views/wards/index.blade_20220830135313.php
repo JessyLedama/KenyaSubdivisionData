@@ -30,7 +30,7 @@
         <div class="row counties-table">
             <div class="col-md-12">
                 <div class="card">
-                    <h3> Kenyan Wards ({{$wardsCount}})</h3>
+                    <h3> Kenyan Wards ()</h3>
                 </div>
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
                     <table class="table">
