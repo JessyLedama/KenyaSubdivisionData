@@ -16,10 +16,8 @@ class CountyController extends Controller
     public function index()
     {
         $countiesData = CountyService::all();
-        $counties = $countiesData['counties'];
-        $countiesCount = $countiesData['countiesCount'];
 
-        return view('counties.index', compact('counties', 'countiesCount'));
+        return view('counties.index', compact('counties'));
     }
 
     /**

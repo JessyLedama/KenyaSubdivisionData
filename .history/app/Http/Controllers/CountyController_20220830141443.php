@@ -19,7 +19,7 @@ class CountyController extends Controller
         $counties = $countiesData['counties'];
         $countiesCount = $countiesData['countiesCount'];
 
-        return view('counties.index', compact('counties', 'countiesCount'));
+        return view('counties.index', compact('counties'));
     }
 
     /**

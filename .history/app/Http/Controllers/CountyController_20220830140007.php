@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\County;
 use Illuminate\Http\Request;
-use App\Services\CountyService;
+use 
 
 class CountyController extends Controller
 {
@@ -15,11 +15,9 @@ class CountyController extends Controller
      */
     public function index()
     {
-        $countiesData = CountyService::all();
-        $counties = $countiesData['counties'];
-        $countiesCount = $countiesData['countiesCount'];
+        $counties = County::with('region')->paginate(10);
 
-        return view('counties.index', compact('counties', 'countiesCount'));
+        return view('counties.index', compact('counties'));
     }
 
     /**

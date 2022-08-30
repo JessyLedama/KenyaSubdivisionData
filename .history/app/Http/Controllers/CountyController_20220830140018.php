@@ -15,11 +15,9 @@ class CountyController extends Controller
      */
     public function index()
     {
-        $countiesData = CountyService::all();
-        $counties = $countiesData['counties'];
-        $countiesCount = $countiesData['countiesCount'];
+        $counties = County::with('region')->paginate(10);
 
-        return view('counties.index', compact('counties', 'countiesCount'));
+        return view('counties.index', compact('counties'));
     }
 
     /**

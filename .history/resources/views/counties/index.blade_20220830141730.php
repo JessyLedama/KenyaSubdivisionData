@@ -63,7 +63,7 @@
                     <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
                         <div class="no-data">
                             <span> 
-                                There is no data to display here. Try running <code>php artisan db:seed</code> on your command line
+                                There is no data to display here. Try running code 
                             </span>
                         </div>
                     </div>
