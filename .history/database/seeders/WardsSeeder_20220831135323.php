@@ -756,8 +756,203 @@ class WardsSeeder extends Seeder
             ],
 
             [
-                'name' => "Baharini",
+                'name' => "Kaloleni",
                 'subcounty_id' => '23',
+            ],
+
+            [
+                'name' => "Mbololo",
+                'subcounty_id' => '23',
+            ],
+
+            [
+                'name' => "Marungu",
+                'subcounty_id' => '23',
+            ],
+
+            [
+                'name' => "Kasigau",
+                'subcounty_id' => '23',
+            ],
+
+            [
+                'name' => "Ngolia",
+                'subcounty_id' => '23',
+            ],
+
+            [
+                'name' => "Ronge",
+                'subcounty_id' => '24',
+            ],
+
+            [
+                'name' => "Mwatate",
+                'subcounty_id' => '24',
+            ],
+
+            [
+                'name' => "Bura",
+                'subcounty_id' => '24',
+            ],
+
+            [
+                'name' => "Chawia",
+                'subcounty_id' => '24',
+            ],
+
+            [
+                'name' => "Wusi/Kishamba",
+                'subcounty_id' => '24',
+            ],
+
+            [
+                'name' => "Wundanyi/Mbale",
+                'subcounty_id' => '25',
+            ],
+
+            [
+                'name' => "Werugha",
+                'subcounty_id' => '25',
+            ],
+
+            [
+                'name' => "Wumingu/Kishushe",
+                'subcounty_id' => '25',
+            ],
+
+            [
+                'name' => "Mwanda/Mgange",
+                'subcounty_id' => '25',
+            ],
+
+            [
+                'name' => "Chala",
+                'subcounty_id' => '26',
+            ],
+
+            [
+                'name' => "Mahoo",
+                'subcounty_id' => '26',
+            ],
+
+            [
+                'name' => "Bomani",
+                'subcounty_id' => '26',
+            ],
+
+            [
+                'name' => "Mboghoni",
+                'subcounty_id' => '26',
+            ],
+
+            [
+                'name' => "Mata",
+                'subcounty_id' => '26',
+            ],
+
+            [
+                'name' => "Bura",
+                'subcounty_id' => '27',
+            ],
+
+            [
+                'name' => "Dekaharia",
+                'subcounty_id' => '26',
+            ],
+
+            [
+                'name' => "Jarajila",
+                'subcounty_id' => '26',
+            ],
+
+            [
+                'name' => "Fafi",
+                'subcounty_id' => '26',
+            ],
+
+            [
+                'name' => "Nanighi",
+                'subcounty_id' => '26',
+            ],
+
+            [
+                'name' => "Waberi",
+                'subcounty_id' => '27',
+            ],
+
+            [
+                'name' => "Galbet",
+                'subcounty_id' => '27',
+            ],
+
+            [
+                'name' => "Township",
+                'subcounty_id' => '27',
+            ],
+
+            [
+                'name' => "Iftin",
+                'subcounty_id' => '27',
+            ],  
+
+            [
+                'name' => "Hulugho",
+                'subcounty_id' => '28',
+            ],
+
+            [
+                'name' => "Sangailu",
+                'subcounty_id' => '28',
+            ],
+
+            [
+                'name' => "Ijara",
+                'subcounty_id' => '28',
+            ],
+
+            [
+                'name' => "Masalani",
+                'subcounty_id' => '28',
+            ],
+
+            [
+                'name' => "Modogashe",
+                'subcounty_id' => '29',
+            ],
+
+            [
+                'name' => "Bename",
+                'subcounty_id' => '29',
+            ],
+
+            [
+                'name' => "Goreale",
+                'subcounty_id' => '29',
+            ],
+
+            [
+                'name' => "Maalamin",
+                'subcounty_id' => '29',
+            ],
+
+            [
+                'name' => "Sabena",
+                'subcounty_id' => '29',
+            ],
+
+            [
+                'name' => "Baraki",
+                'subcounty_id' => '29',
+            ],
+
+            [
+                'name' => "Dertu",
+                'subcounty_id' => '30',
+            ],
+
+            [
+                'name' => "Dadaab",
+                'subcounty_id' => '30',
             ],
         ];
 

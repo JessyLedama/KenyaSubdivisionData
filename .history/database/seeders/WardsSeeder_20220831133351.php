@@ -756,7 +756,12 @@ class WardsSeeder extends Seeder
             ],
 
             [
-                'name' => "Baharini",
+                'name' => "Kaloleni",
+                'subcounty_id' => '23',
+            ],
+
+            [
+                'name' => "Mbololo/Ngolia",
                 'subcounty_id' => '23',
             ],
         ];

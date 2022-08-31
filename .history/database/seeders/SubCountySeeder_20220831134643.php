@@ -151,7 +151,7 @@ class SubCountySeeder extends Seeder
             ],
 
             [
-                'name' => 'Garissa Township',
+                'name' => 'Garissa Towns',
                 'county_id' => '7',
             ],
 

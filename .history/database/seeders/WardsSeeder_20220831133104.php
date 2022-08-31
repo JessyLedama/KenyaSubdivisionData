@@ -716,48 +716,8 @@ class WardsSeeder extends Seeder
             ],
 
             [
-                'name' => "Hongwe",
-                'subcounty_id' => '22',
-            ],
-
-            [
-                'name' => "Langoni/Manda/Shella",
-                'subcounty_id' => '22',
-            ],
-
-            [
-                'name' => "Mapenya",
-                'subcounty_id' => '22',
-            ],
-
-            [
-                'name' => "Mkomani/Matondoni",
-                'subcounty_id' => '22',
-            ],
-
-            [
-                'name' => "Mkunumbi",
-                'subcounty_id' => '22',
-            ],
-
-            [
-                'name' => "Mokowe",
-                'subcounty_id' => '22',
-            ],
-
-            [
-                'name' => "Mpeketoni",
-                'subcounty_id' => '22',
-            ],
-
-            [
-                'name' => "Witu",
-                'subcounty_id' => '22',
-            ],
-
-            [
                 'name' => "Baharini",
-                'subcounty_id' => '23',
+                'subcounty_id' => '22',
             ],
         ];
 

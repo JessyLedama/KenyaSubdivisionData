@@ -741,23 +741,8 @@ class WardsSeeder extends Seeder
             ],
 
             [
-                'name' => "Mokowe",
-                'subcounty_id' => '22',
-            ],
-
-            [
-                'name' => "Mpeketoni",
-                'subcounty_id' => '22',
-            ],
-
-            [
-                'name' => "Witu",
-                'subcounty_id' => '22',
-            ],
-
-            [
                 'name' => "Baharini",
-                'subcounty_id' => '23',
+                'subcounty_id' => '22',
             ],
         ];
 

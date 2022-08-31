@@ -756,9 +756,31 @@ class WardsSeeder extends Seeder
             ],
 
             [
-                'name' => "Baharini",
+                'name' => "Kaloleni",
                 'subcounty_id' => '23',
             ],
+
+            [
+                'name' => "Mbololo",
+                'subcounty_id' => '23',
+            ],
+
+            [
+                'name' => "Marungu",
+                'subcounty_id' => '23',
+            ],
+
+            [
+                'name' => "Kasigau",
+                'subcounty_id' => '23',
+            ],
+
+            [
+                'name' => "Ngolia",
+                'subcounty_id' => '23',
+            ],
+
+            
         ];
 
         $wards = Ward::all();

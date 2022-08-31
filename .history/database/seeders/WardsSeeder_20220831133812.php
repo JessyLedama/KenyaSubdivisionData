@@ -756,8 +756,38 @@ class WardsSeeder extends Seeder
             ],
 
             [
-                'name' => "Baharini",
+                'name' => "Kaloleni",
                 'subcounty_id' => '23',
+            ],
+
+            [
+                'name' => "Mbololo",
+                'subcounty_id' => '23',
+            ],
+
+            [
+                'name' => "Marungu",
+                'subcounty_id' => '23',
+            ],
+
+            [
+                'name' => "Kasigau",
+                'subcounty_id' => '23',
+            ],
+
+            [
+                'name' => "Ngolia",
+                'subcounty_id' => '23',
+            ],
+
+            [
+                'name' => "Ronge",
+                'subcounty_id' => '24',
+            ],
+
+            [
+                'name' => "Mwatate",
+                'subcounty_id' => '24',
             ],
         ];
 

@@ -757,7 +757,7 @@ class WardsSeeder extends Seeder
 
             [
                 'name' => "Baharini",
-                'subcounty_id' => '23',
+                'subcounty_id' => '22',
             ],
         ];
 
