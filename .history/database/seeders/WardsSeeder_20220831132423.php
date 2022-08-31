@@ -666,7 +666,7 @@ class WardsSeeder extends Seeder
             ],
 
             [
-                'name' => "Shirikisho",
+                'name' => "Assa",
                 'subcounty_id' => '20',
             ],
         ];

@@ -629,46 +629,6 @@ class WardsSeeder extends Seeder
                 'name' => "Assa",
                 'subcounty_id' => '20',
             ],
-
-            [
-                'name' => "Bilisa",
-                'subcounty_id' => '20',
-            ],
-
-            [
-                'name' => "Garsen Central",
-                'subcounty_id' => '20',
-            ],
-
-            [
-                'name' => "Garsen South",
-                'subcounty_id' => '20',
-            ],
-
-            [
-                'name' => "Kipini East",
-                'subcounty_id' => '20',
-            ],
-
-            [
-                'name' => "Kipini West",
-                'subcounty_id' => '20',
-            ],
-
-            [
-                'name' => "Ndera",
-                'subcounty_id' => '20',
-            ],
-
-            [
-                'name' => "Salama/Mwina",
-                'subcounty_id' => '20',
-            ],
-
-            [
-                'name' => "Shirikisho",
-                'subcounty_id' => '20',
-            ],
         ];
 
         $wards = Ward::all();

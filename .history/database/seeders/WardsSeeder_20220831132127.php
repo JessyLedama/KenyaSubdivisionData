@@ -621,53 +621,8 @@ class WardsSeeder extends Seeder
             ],
 
             [
-                'name' => "Zubaki/Mikinduni",
+                'name' => "Chewani/Kiarukungu",
                 'subcounty_id' => '19',
-            ],
-
-            [
-                'name' => "Assa",
-                'subcounty_id' => '20',
-            ],
-
-            [
-                'name' => "Bilisa",
-                'subcounty_id' => '20',
-            ],
-
-            [
-                'name' => "Garsen Central",
-                'subcounty_id' => '20',
-            ],
-
-            [
-                'name' => "Garsen South",
-                'subcounty_id' => '20',
-            ],
-
-            [
-                'name' => "Kipini East",
-                'subcounty_id' => '20',
-            ],
-
-            [
-                'name' => "Kipini West",
-                'subcounty_id' => '20',
-            ],
-
-            [
-                'name' => "Ndera",
-                'subcounty_id' => '20',
-            ],
-
-            [
-                'name' => "Salama/Mwina",
-                'subcounty_id' => '20',
-            ],
-
-            [
-                'name' => "Shirikisho",
-                'subcounty_id' => '20',
             ],
         ];
 

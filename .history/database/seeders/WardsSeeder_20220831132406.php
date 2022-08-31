@@ -659,16 +659,6 @@ class WardsSeeder extends Seeder
                 'name' => "Ndera",
                 'subcounty_id' => '20',
             ],
-
-            [
-                'name' => "Salama/Mwina",
-                'subcounty_id' => '20',
-            ],
-
-            [
-                'name' => "Shirikisho",
-                'subcounty_id' => '20',
-            ],
         ];
 
         $wards = Ward::all();

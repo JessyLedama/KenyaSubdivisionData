@@ -71,11 +71,6 @@ class SubCountySeeder extends Seeder
             ],
 
             [
-                'name' => 'Kilifi South',
-                'county_id' => '3',
-            ],
-
-            [
                 'name' => 'Ganze',
                 'county_id' => '3',
             ],

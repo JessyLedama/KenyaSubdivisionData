@@ -661,12 +661,7 @@ class WardsSeeder extends Seeder
             ],
 
             [
-                'name' => "Salama/Mwina",
-                'subcounty_id' => '20',
-            ],
-
-            [
-                'name' => "Shirikisho",
+                'name' => "Assa",
                 'subcounty_id' => '20',
             ],
         ];
