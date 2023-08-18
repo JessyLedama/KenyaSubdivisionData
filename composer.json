@@ -1,8 +1,8 @@
 {
-    "name": "JessyLedama/KenyanCountiesData",
+    "name": "jessyledama/kenyan-subdivision-data",
     "type": "project",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "description": "Kenya Subdivision Data.",
+    "keywords": ["kenya", "subdivision"],
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
